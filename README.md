@@ -8,6 +8,13 @@ This project implements a **Hybrid Recommender System** using [LightFM](https://
 - **Efficient Training:** Optimized with Stochastic Gradient Descent (SGD) and Alternating Least Squares (ALS).
 - **Cold-Start Handling:** Incorporates item and user features to improve recommendations for new users/items.
 - **Evaluation Metrics:** Includes precision, recall, and AUC to measure model performance.
+## Business Case Overview 
+Recommendation systems are widely used in various applications for recommending products or items to customers. These recommendations are made with two methods, mainly content-based and collaborative filtering.
+
+Collaborative filtering focuses on finding similarities between users and mutually encouraging user preferences. In comparison, Content-based filtering is used to personalize the content for each user. It uses previous actions and feedback about users' liking to provide similar recommendations.
+
+But these methods find it difficult to make recommendations when there is insufficient data to learn the relation between customers and items. To overcome the limitations of these methods, Hybrid Recommendation System was introduced.
+
 
 ## 📂 Project Structure
 ```
